@@ -50,14 +50,22 @@ echo $aluno;*/
 /*===============================================================================*/
 /*update na base*/
 
-$usuario =  new Usuario();
+/*$usuario =  new Usuario();
 
 $usuario->loadById(7);
 
 $usuario->update("melgibson","@@@");
 
-echo $usuario;
+echo $usuario;*/
 
+/*===============================================================================*/
+$usuario = new Usuario();
+
+$usuario->loadById(7);
+
+$usuario->delete();
+
+echo $usuario;
 
 
 ?>
